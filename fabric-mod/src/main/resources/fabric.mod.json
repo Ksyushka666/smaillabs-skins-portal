@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "smaillabs_skins",
+  "version": "${version}",
+  "name": "SmailLabs Skin Profiles",
+  "description": "Профили Minecraft, кастомные скины и плащи для SmailLabs.",
+  "authors": ["YTSmailDog"],
+  "contact": {
+    "homepage": "https://smaillabs.onrender.com/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.smaillabs.skins.SmailLabsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
